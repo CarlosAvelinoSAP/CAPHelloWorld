@@ -3,4 +3,9 @@
 @baseUrl = http://localhost:4004/odata/v4
 
 
-GET {{baseUrl}}/Hello/sayHello(name='World')
+GET {{baseUrl}}/Hello/sayHello(name='World', name2='Again')
+
+###
+# Teste service
+
+GET {{baseUrl}}/Hello/sayHelloA(name='World', name2='Again22')
